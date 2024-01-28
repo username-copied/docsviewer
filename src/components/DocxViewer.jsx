@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import DocViewer,{DocViewerRenderers,MSDocRenderer,CSVRenderer} from '@cyntler/react-doc-viewer';
+import DocViewer,{DocViewerRenderers} from '@cyntler/react-doc-viewer';
 
 const DocxViewer = () => {
   const [selectedDocs, setSelectedDocs] = useState([]);
